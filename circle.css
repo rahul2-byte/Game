@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(5, 5, 27);
+    display: flex;
+    color: white;
+}
+
+button {
+    z-index: 1;
+    opacity: 1;
+    border: -10px;
+    border-radius: 100px;
+    padding: 30px;
+    margin: 20px;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rock,
+#paper,
+#scissors {
+    font-size: large;
+    font-weight: 700;
+}
+
+#rock {
+    background-color: rgb(11, 235, 108);
+}
+
+#paper {
+    background-color: rgb(241, 238, 9);
+}
+
+#scissors {
+    background-color: rgb(238, 11, 98);
+}
+
+
+.circle3 {
+    align-items: center;
+    background-color: rgb(247, 120, 97);
+    padding: 15px;
+    /* padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 30px; */
+    border-radius: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.circle2 {
+    background-color: rgb(83, 165, 231);
+    border-radius: 100%;
+    padding: 15px;
+    /* padding-top: 35px;
+    padding-bottom: 35px; */
+    margin: 30px;
+    opacity: 0.50;
+    z-index: -1;
+}
+
+.circle1 {
+    background-color: rgb(96, 243, 160);
+    border-radius: 100%;
+    padding: 20px;
+    /* padding-top: 35px;
+    padding-bottom: 35px; */
+    /* margin: 30px; */
+    opacity: 0.25;
+    z-index: -1;
+}
